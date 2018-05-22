@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/css.css" type="text/css" media="all">
+<meta name="viewport" content="width=device-width,user-scalable=yes">
+</head>
+
+<body>
+
+<header>
+   <h1><a href="7.html"><img src="images/arrow-l.png" class="al2" alt="left arrow";></a>Info
+   <img onclick="remind(event);" src="images/qmark.png" class="q" alt="q";><img src="images/arrow-r.png" class="ar2" alt="right arrow";></h1>
+
+</header>
+
+  <article class="form">
+  	<form method="POST" action="mailto:Melinda.Laidlaw@dsiti.qld.gov.au" enctype="text/plain">
+  		Name: <input type="text" name="name" value="Name">
+  		<br></br>
+  		E-mail: <input type="text" name="email" value="@email.com">
+  		<br></br>
+  		<span>Date: <input type="date" value="2017-04-07"/> </span>
+  		<br></br>
+  		Please select the type of the weed:
+  		<br></br>
+  		<input type="radio" name="type" value="Grass" > Grass
+  		<input type="radio" name="type" value="Herb"> Herb
+  		<input type="radio" name="type" value="Shrub"> Shrub
+      <input type="radio" name="type" value="Tree">Tree
+  		<input type="radio" name="type" value="Other"> Other
+  		<input type="radio" name="type" value="Not sure" checked> Not sure
+  		<br></br>
+  		Is this weed:
+  		<br></br>
+  		<input type="radio" name="type2" value="Cultivated"> Cultivated
+  		<input type="radio" name="type2" value="Growing wild"> Growing wild
+  		<input type="radio" name="type2" value="Not sure" checked> Not sure
+  		<br></br>
+  		<center>
+        Notes:
+        <textarea rows="13" cols="35" maxlength="1000">Enter text here...</textarea>
+        <p><input type="submit" value="Submit" name="B1" style="font-size:16px"></p>
+      </center>
+  </form>
+</article>
+
+<footer>
+<a href="9.html">
+<button>Next</button></a>
+
+<script>
+ function remind(event) {
+    alert(" User guide: \n\nFill in the form and submit then click 'Next'");
+  }
+</script>
+</footer>
+</body>
+</html>

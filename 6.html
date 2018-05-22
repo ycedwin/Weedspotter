@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/css.css" type="text/css" media="all">
+<meta name="viewport" content="width=device-width,user-scalable=yes">
+</head>
+
+<body>
+
+<header>
+   <h1><a href="5.html"><img src="images/arrow-l.png" class="al" alt="left arrow";></a>Fruits
+   <img onclick="remind(event);" src="images/qmark.png" class="q" alt="q";><a href="7.html"><img src="images/arrow-r.png" class="ar" alt="right arrow";></a></h1>
+
+</header>
+
+<div class="container">
+  <h1>Please take/upload photo(s) of the fruits</h1><img src="images/camera.png" class="al" alt="camera";>
+  <input type="file" id="snap" accept="image/*;capture=camera">
+  <img src="about:blank" id="showPhoto" width="350">
+
+</div>
+<script src="js/base.js"></script>
+
+<script>
+ function remind(event) {
+    alert(" User guide: \n\n Please take a photo of any fruits (skip this step if there are no fruits)");
+  }
+</script>
+
+</body>
+</html>

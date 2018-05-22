@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/css.css" type="text/css" media="all">
+<meta name="viewport" content="width=device-width,user-scalable=yes">
+</head>
+<body>
+
+<header>
+   <h1><img src="images/arrow-l.png" class="al1" alt="left arrow";>Whole Plant
+   <img onclick="remind(event);" src="images/qmark.png" class="q" alt="q";><a href="4.html"><img src="images/arrow-r.png" class="ar1" alt="right arrow";></a></h1>
+
+</header>
+
+<div class="container">
+  <h1>Please take/upload photo(s) of the whole plant</h1><img src="images/camera.png" class="al" alt="camera";>
+  <input type="file" id="snap" accept="image/*;capture=camera">
+  <img src="about:blank" id="showPhoto" width="350">
+
+</div>
+<script src="js/base.js"></script>
+
+<script>
+function remind(event) {
+    alert(" User guide: \n\n Please take a photo of the whole plant.");
+  }
+</script>
+
+</body>
+</html>

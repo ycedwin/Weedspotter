@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/css.css" type="text/css" media="all">
+<meta name="viewport" content="width=device-width,user-scalable=yes">
+</head>
+
+
+<body>
+
+<header>
+   <h2><a href="6.html"><img src="images/arrow-l.png" class="al" alt="left arrow";></a>Photos Taken
+   <img onclick="remind(event);" src="images/qmark.png" class="q" alt="q";><a href="8.html"><img src="images/arrow-r.png" class="ar" alt="right arrow";></a></h1>
+
+</header>
+
+<article class="gallery">
+</article>
+<script>
+ function remind(event) {
+    alert(" User guide: \n\nHere are photos you took and you can go back to retake or save them to prosess the next step");
+  }
+  function save(event) {
+    alert(" Photos saved.");
+  }
+</script>
+<footer>
+<img onclick="save(event);" src="images/save.png" class="save" alt="save";>
+
+
+</footer>
+</body>
+</html>

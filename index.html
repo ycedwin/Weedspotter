@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/css.css" type="text/css" media="all">
+<meta name="viewport" content="width=device-width,user-scalable=yes">
+</head>
+<body>
+
+<header class="font">
+   <div ><img src="images/logo.jpg" class="weed" alt="weed" >
+   <div>
+
+</header>
+
+<article>
+  <div class="border">
+
+
+  <img class="img" src="images/Hudson pear.jpg">
+  <img class="img" src="images/kudzu.jpg">
+  <img class="img" src="images/Limnocharis.jpg">
+  <img class="img" src="images/Siam weed.png">
+  <img class="img" src="images/water mimosa.png">
+</div>
+
+</article>
+
+<footer style="background-color: #F5DEB3;">
+<a href="2.html">
+
+<img src="images/start.png" class="start" alt="start"  ></a>
+
+<script>
+  var slideIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("img");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 1500);
+  }
+
+  window.onload = function() {
+    alert("User guide: Easy entry by click on 'Start' \n\nDevelop team: Just Do I.T");
+  }
+</script>
+</footer>
+</body>
+</html>
